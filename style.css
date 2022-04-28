@@ -1,0 +1,58 @@
+html {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 540px){
+    .headline h1 {
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 0px;
+    }
+    .headline p {
+        text-align: center;
+        font-style: italic;
+        font-size: 0.7rem;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .selfie {
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .selfie img  {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+    }
+    .selfie hr {
+        text-align: center;
+        width: 30px;
+        
+    }
+    .selfie p {
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        font-style: italic;
+        width: 250px;
+        margin-left: 20px;
+    }
+    .selfie aside {
+        text-align: center;
+        width: 200px;
+        font-size: 0.8rem;
+    }
+
+    }
+    
+    @media (min-width: 960px){
+    
+    }
+    
+    @media (min-width: 1140px){
+
+    }
+  
