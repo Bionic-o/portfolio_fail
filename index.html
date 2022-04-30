@@ -5,26 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="headline">
-            <h1>PORTFOLIO</h1>
-            <p>(last updated: dd.mm.yyyy)</p>
+        <div class="flexcontainer">
+            <div class="headline">
+                <h1>PORTFOLIO</h1>
+                <p>(last updated: dd.mm.yyyy)</p>
+            </div>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="btn"><i class="fa fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">About Me</a>
+                    <a href="#">Tech-Skills</a>
+                    <a href="#">Soft-Skills</a>
+                    <a href="#">Interests Me</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact Me</a>
+                </div>
+                </div>
+            </div>
         </div>
         <div class="selfie">
             <div class="image">
                 <img src="./Nico.jpg" alt="profile img">
-                <div>
-                    <aside>Nico Weiskopf</aside>
-                    <hr>
-                    <aside>Junior Full Stack Web & App Developer</aside>
-                </div>
             </div>
-            <p>some kind of inspirational quote to give it a personal touch and already give a first inside look of who I am</p>
+            <p>some kind of inspirational quote to create a personal touch and already give a first inside look of who I am</p>
         </div>
     </header>
+    <main>
+        <div class="introduction">
+            <h2>Hi! I'm Nico,</h2>
+            <aside>Junior Full Stack Developer</aside>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nihil distinctio aspernatur non id natus ex doloremque voluptas saepe, tenetur dicta eligendi omnis perferendis laborum, porro ratione? Esse, neque minima?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dicta neque repellat atque numquam officia perferendis, est molestiae quasi dolor ducimus amet ut suscipit rerum unde odit non aspernatur? Nihil.</p>
+        </div>
+        <div id="tech-container">
+            <div id="tech-skills">
+                <img class="tech" src="./tech.png" alt="tech-skills">
+                <h3>Tech-Skills</h3>
+            </div>
+            <div id="tech">
+                <img class="tech" src="./html5.png" alt="html5">
+                <img class="tech" src="./css3.png" alt="css3">
+                <img class="tech" src="./js.png" alt="js">
+                <img class="tech" src="./github.png" alt="github">
+                <img class="tech" src="./git.png" alt="git">
+                <img class="tech" src="./nodejs.png" alt="nodejs">
+                <img class="tech" src="./react.png" alt="react">
+                <img class="tech" src="./mongodb.png" alt="mongodb">
+                <img class="tech" src="./sql.png" alt="sql">
+            </div>
+        </div>
+        <div id="soft-container">
+            <div id="soft-skills">
+                <img class="tech" src="./soft.png" alt="soft-skills">
+                <h3>Soft-Skills</h3>
+            </div>
+            <div id="soft">
+
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>
